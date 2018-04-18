@@ -1,5 +1,21 @@
+<?php
+$company = isset($_GET["company"]) ? $_GET["company"] : null;
+$aanwezigen = isset($_GET["aanwezigen"]) ? $_GET["aanwezigen"] : null;
+
+function getInput($data) {
+
+    if (isset($data)) {
+        $data = htmlentities($data);
+        $data = preg_replace("(_)", '&nbsp;', $data);
+    } else {
+        $data = '-';
+    }
+
+    return $data;
+}
+?>
 <!DOCTYPE html>
-<html lang="">
+<html lang="nl">
 
 <head>
 	<meta charset="utf-8">
@@ -31,8 +47,8 @@
 	</div>
 
 	<div class="informatie text-left">
-		<h1 class="display-4">Welkom, (Company name)!</h1>
-		<p class="lead">Aanwezigen: (Persoon 1), (Persoon 2), (Persoon 3)</p>
+		<h1 class="display-4">Welkom, <?php echo getInput($company); ?>!</h1>
+		<p class="lead">Aanwezigen: <?php echo getInput($aanwezigen); ?></p>
 		<hr class="my-4">
 		<p class="lead">
 			<a class="btn btn-primary btn-lg datum" id="date"></a>
