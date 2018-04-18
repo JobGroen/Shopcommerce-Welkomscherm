@@ -1,0 +1,93 @@
+/*------------------------------------------------------------*\
+    Variables
+\*------------------------------------------------------------*/
+
+@import "helpers/_variables";
+@import "helpers/variables/_bootstrap";
+
+
+
+
+
+/*------------------------------------------------------------*\
+    Boostrap v4.0.0
+\*------------------------------------------------------------*/
+
+// Core variables and mixins
+@import "vendors/bootstrap/functions";
+@import "vendors/bootstrap/variables";
+@import "vendors/bootstrap/mixins";
+@import "vendors/bootstrap/root";
+@import "vendors/bootstrap/reboot";
+@import "vendors/bootstrap/type";
+@import "vendors/bootstrap/images";
+@import "vendors/bootstrap/code";
+@import "vendors/bootstrap/grid";
+@import "vendors/bootstrap/tables";
+@import "vendors/bootstrap/forms";
+@import "vendors/bootstrap/buttons";
+@import "vendors/bootstrap/transitions";
+@import "vendors/bootstrap/dropdown";
+@import "vendors/bootstrap/button-group";
+@import "vendors/bootstrap/input-group";
+@import "vendors/bootstrap/custom-forms";
+@import "vendors/bootstrap/nav";
+@import "vendors/bootstrap/navbar";
+@import "vendors/bootstrap/card";
+@import "vendors/bootstrap/breadcrumb";
+@import "vendors/bootstrap/pagination";
+@import "vendors/bootstrap/badge";
+@import "vendors/bootstrap/jumbotron";
+@import "vendors/bootstrap/alert";
+@import "vendors/bootstrap/progress";
+@import "vendors/bootstrap/media";
+@import "vendors/bootstrap/list-group";
+@import "vendors/bootstrap/close";
+@import "vendors/bootstrap/modal";
+@import "vendors/bootstrap/tooltip";
+@import "vendors/bootstrap/popover";
+@import "vendors/bootstrap/carousel";
+@import "vendors/bootstrap/utilities";
+@import "vendors/bootstrap/print";
+
+
+
+
+
+/*------------------------------------------------------------*\
+    Shopcommerce Framework
+\*------------------------------------------------------------*/
+
+// Mixins
+@import "helpers/_mixins";
+
+// Base
+@import "base/_global";
+
+// Layout
+@import "layout/_header";
+@import "layout/_footer";
+
+// Components
+@import "components/_animations";
+@import "components/_breadcrumbs";
+@import "components/_buttons";
+@import "components/_carousel";
+@import "components/_forms";
+@import "components/_icons";
+@import "components/_labels";
+@import "components/_modals";
+@import "components/_navbar";
+@import "components/_panels";
+
+// Pages
+@import "pages/_home";
+@import "pages/_page";
+
+
+
+
+
+/*------------------------------------------------------------*\
+    Plugins
+\*------------------------------------------------------------*/

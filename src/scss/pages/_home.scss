@@ -1,0 +1,78 @@
+/*------------------------------------------------------------*\
+    Home
+\*------------------------------------------------------------*/
+$hoofdfont: "Raleway", sans-serif;
+$tijdkleur: #0087c9;
+$datumkleur: #69b745;
+$textkleur: #fff;
+$overlaykleur: rgba(#46c361, 0.2);
+$videohoogte: 100vh;
+$videobreedtte: 100%;
+
+
+* {
+  font-family:$hoofdfont;
+}
+
+.videoContainer {
+    position: relative;
+    width: $videobreedtte;
+    height: $videohoogte;
+    overflow: hidden;
+    z-index: -100;
+}
+.videoContainer video {
+    min-width: $videobreedtte;
+    min-height: $videohoogte;
+    position: relative;
+    z-index: 1;
+}
+.videoContainer .overlay {
+    height: $videohoogte;
+    width: $videobreedtte;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    background: $overlaykleur;
+}
+
+.informatie {
+  position: absolute;
+  top: 65%;
+  left: 2%;
+  border: 5px solid rgba(255, 255, 255, 1);
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 15px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, .3);
+  }
+
+  .shopcommercelogo {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    }
+
+
+.datum {
+  background-color: $datumkleur;
+  border:$datumkleur;
+  color: $textkleur!important;
+
+  &:hover {
+    background-color: $datumkleur;
+    border: $datumkleur;
+  }
+}
+
+.tijd {
+  background-color: $tijdkleur;
+  border: $tijdkleur;
+  color: $textkleur!important;
+
+  &:hover {
+    background-color: $tijdkleur;
+    border: $tijdkleur;
+  }
+}
