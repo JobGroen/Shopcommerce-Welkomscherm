@@ -2,17 +2,14 @@
     Home
 \*------------------------------------------------------------*/
 $hoofdfont: "Raleway", sans-serif;
-$tijdkleur: #0087c9;
-$datumkleur: #69b745;
+$secondfont: 'Montserrat', sans-serif;
+
+$tijdkleur: #ff7b54;
+$datumkleur: transparent;
 $textkleur: #fff;
-$overlaykleur: rgba(#46c361, 0.2);
+$overlaykleur: rgba(28, 28, 28, 0.75);
 $videohoogte: 100vh;
 $videobreedtte: 100%;
-
-
-* {
-  font-family:$hoofdfont;
-}
 
 .videoContainer {
     position: relative;
@@ -38,41 +35,66 @@ $videobreedtte: 100%;
 }
 
 .informatie {
+  color: white;
   position: absolute;
-  top: 65%;
-  left: 2%;
-  border: 5px solid rgba(255, 255, 255, 1);
-  padding: 2%;
-  background-color: rgba(255, 255, 255, 1);
-  border-radius: 15px;
-  box-shadow: 0 8px 8px rgba(0, 0, 0, .3);
+  top: 30%;
+  left: 5%;
+
+  &__lead {
+    margin-bottom: 0rem;
   }
 
-  .shopcommercelogo {
-    position: absolute;
-    top: 2%;
-    left: 2%;
+  &__h1 {
+    font-family: $secondfont;
+    text-transform: uppercase;
     }
+  }
+
+  .shopcommercelogo img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+  }
 
 
 .datum {
   background-color: $datumkleur;
-  border:$datumkleur;
+  border-bottom:2px solid white;
   color: $textkleur!important;
-
-  &:hover {
-    background-color: $datumkleur;
-    border: $datumkleur;
-  }
 }
 
 .tijd {
-  background-color: $tijdkleur;
-  border: $tijdkleur;
+  background-color: $datumkleur;
+  border-bottom: 2px solid white;
   color: $textkleur!important;
+}
 
-  &:hover {
-    background-color: $tijdkleur;
-    border: $tijdkleur;
+.voorkeurspartners {
+  width: 100%;
+
+  &__links {
+    width: 82.5%;
+    float: left;
+  }
+
+  &__rechts {
+    width: 17.5%;
+    float: right;
+  }
+  & img {
+    margin-left: 5%;
+    padding-bottom: 2.5%;
+    width: 125px;
+  }
+}
+
+.lead {
+  font-size: 2rem!important;
+  margin-top: 1%;
+
+  &__right {
+    margin-left: 2.5%;
   }
 }
