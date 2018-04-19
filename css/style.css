@@ -6543,9 +6543,6 @@ a, .btn {
 \*------------------------------------------------------------*/
 /*------------------------------------------------------------*    Home
 \*------------------------------------------------------------*/
-* {
-  font-family: "Raleway", sans-serif; }
-
 .videoContainer {
   position: relative;
   width: 100%;
@@ -6566,38 +6563,54 @@ a, .btn {
   top: 0px;
   left: 0px;
   z-index: 100;
-  background: rgba(70, 195, 97, 0.2); }
+  background: rgba(28, 28, 28, 0.75); }
 
 .informatie {
+  color: white;
   position: absolute;
-  top: 65%;
-  left: 2%;
-  border: 5px solid white;
-  padding: 2%;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3); }
+  top: 30%;
+  left: 5%; }
+  .informatie__lead {
+    margin-bottom: 0rem; }
+  .informatie__h1 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase; }
 
-.shopcommercelogo {
+.shopcommercelogo img {
+  top: 0;
+  left: 0;
   position: absolute;
-  top: 2%;
-  left: 2%; }
+  margin-top: 2.5%;
+  margin-left: 2.5%; }
 
 .datum {
-  background-color: #69b745;
-  border: #69b745;
+  background-color: transparent;
+  border-bottom: 2px solid white;
   color: #fff !important; }
-  .datum:hover {
-    background-color: #69b745;
-    border: #69b745; }
 
 .tijd {
-  background-color: #0087c9;
-  border: #0087c9;
+  background-color: transparent;
+  border-bottom: 2px solid white;
   color: #fff !important; }
-  .tijd:hover {
-    background-color: #0087c9;
-    border: #0087c9; }
+
+.voorkeurspartners {
+  width: 100%; }
+  .voorkeurspartners__links {
+    width: 82.5%;
+    float: left; }
+  .voorkeurspartners__rechts {
+    width: 17.5%;
+    float: right; }
+  .voorkeurspartners img {
+    margin-left: 5%;
+    padding-bottom: 2.5%;
+    width: 125px; }
+
+.lead {
+  font-size: 2rem !important;
+  margin-top: 1%; }
+  .lead__right {
+    margin-left: 2.5%; }
 
 /*------------------------------------------------------------*    Page
 \*------------------------------------------------------------*/
