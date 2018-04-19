@@ -15,6 +15,53 @@ function getInput($data) {
 
     return $data;
 }
+function dateToText($date)
+{
+
+    switch ($date) {
+        case "1":
+            return "Januari";
+            break;
+        case "2":
+            return "Februari";
+            break;
+        case "3":
+            return "Maart";
+            break;
+        case "4":
+            return "April";
+            break;
+        case "5":
+            return "Mei";
+            break;
+        case "6":
+            return "Juni";
+            break;
+        case "7":
+            return "Juli";
+            break;
+        case "8":
+            return "Augustus";
+            break;
+        case "9":
+            return "September";
+            break;
+        case "10":
+            return "Oktober";
+            break;
+        case "11":
+            return "November";
+            break;
+        case "12":
+            echo "December";
+            break;
+        default:
+            return "Geen datum beschikbaar";
+    }
+
+
+
+}
 ?>
   <!DOCTYPE html>
   <html lang="nl">
@@ -63,7 +110,7 @@ function getInput($data) {
         <?php echo getInput($aanwezigen); ?>
       </p>
       <p class="lead">
-        <p class="lead btn  datum" id="date"></p>
+        <p class="lead btn  datum" id="date"><?php echo date("d") ." ". dateToText(date("m")) ." ". date("Y") .""?></p>
         <p class="lead lead__right btn tijd">
           <?php echo getInput($tijd); ?> uur</p>
       </p>
