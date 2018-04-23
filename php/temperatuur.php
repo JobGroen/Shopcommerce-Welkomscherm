@@ -12,6 +12,6 @@ $connection = curl_exec($verify);
 $connection = json_decode($connection, true);
 
 $celcius = ($connection["main"]["temp"] - 273.15 ) * 1.000000;
-echo round($celcius, 0) . "°";
+echo round($celcius, 0) . "°c";
 ?>
 
