@@ -110,7 +110,7 @@ function dateToText($date)
         <?php echo getInput($aanwezigen); ?>
       </p>
       <p class="lead">
-        <p class="lead btn  datum" id="date"><?php echo date("d") . dateToText(date("m")) . date("Y") .""?></p>
+        <p class="lead btn  datum" id="date"><?php echo date("d"). " " .dateToText(date("m")). " " . date("Y") .""?></p>
         <p class="lead lead__right btn tijd">
           <?php echo getInput($tijd); ?> uur</p>
       </p>
@@ -131,5 +131,4 @@ function dateToText($date)
     <script src="js/plugins.min.js"></script>
     <script src="js/app.min.js"></script>
   </body>
-
   </html>
