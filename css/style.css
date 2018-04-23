@@ -6596,11 +6596,14 @@ a, .btn {
 .voorkeurspartners {
   width: 100%; }
   .voorkeurspartners__links {
-    width: 82.5%;
+    width: 95%;
     float: left; }
   .voorkeurspartners__rechts {
-    width: 17.5%;
-    float: right; }
+    width: 5%;
+    float: right;
+    margin-top: .5%;
+    color: white;
+    font-size: 3em; }
   .voorkeurspartners img {
     margin-left: 5%;
     padding-bottom: 2.5%;
