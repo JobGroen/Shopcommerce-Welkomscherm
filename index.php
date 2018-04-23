@@ -122,24 +122,8 @@ function dateToText($date)
         <img src="images/magento.png" alt="magento">
       </div>
 
-      <div class="voorkeurspartners__rechts">
+      <div class="voorkeurspartners__rechts" id="temp">
 
-          <?php
-
-          $api_uri = 'http://api.openweathermap.org/data/2.5/weather?zip=1822,nl&appid=8e09fcd5e8ecd36618655024a031e852';
-
-          $verify = curl_init();
-          curl_setopt($verify, CURLOPT_URL, $api_uri);
-          curl_setopt($verify, CURLOPT_SSL_VERIFYPEER, false);
-          curl_setopt($verify, CURLOPT_RETURNTRANSFER, true);
-
-         $connection = curl_exec($verify);
-
-          $connection = json_decode($connection, true);
-
-          $celcius = ($connection["main"]["temp"] - 273.15 ) * 1.000000;
-          echo round($celcius, 0);
-          ?>
       </div>
     </div>
 
@@ -147,5 +131,6 @@ function dateToText($date)
     <script src="//code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="js/plugins.min.js"></script>
     <script src="js/app.min.js"></script>
+    <script src="js/temprefresh.js"></script>
   </body>
   </html>
