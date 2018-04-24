@@ -6599,10 +6599,10 @@ a, .btn {
 .voorkeurspartners {
   width: 100%; }
   .voorkeurspartners__links {
-    width: 90%;
+    width: 85%;
     float: left; }
   .voorkeurspartners__rechts {
-    width: 10%;
+    width: 15%;
     float: right;
     color: white;
     font-size: 3em; }
