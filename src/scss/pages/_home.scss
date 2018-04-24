@@ -11,6 +11,11 @@ $overlaykleur: rgba(28, 28, 28, 0.75);
 $videohoogte: 100vh;
 $videobreedtte: 100%;
 
+.container {
+  &__h4 {
+    font-weight: lighter;
+  }
+}
 .videoContainer {
     position: relative;
     width: $videobreedtte;

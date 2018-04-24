@@ -2,3 +2,19 @@
     Page
 \*------------------------------------------------------------*/
 
+.invoerscherm {
+  margin-top: 25%;
+  background-color: rgb(244, 244, 244);
+  border: 2px solid rgba(0, 0, 0, 0.03);
+  padding: 2.5%;
+
+  &__button {
+    background-color: #69b745;
+    border: 2px solid #69b745;
+
+    &:hover {
+      background-color: #35a300;
+      border: 2px solid #35a300;
+    }
+  }
+}
