@@ -6619,10 +6619,13 @@ a, .btn {
 
 /*------------------------------------------------------------*    Page
 \*------------------------------------------------------------*/
+body {
+  background-color: #fafafa; }
+
 .invoerscherm {
   margin-top: 25%;
   background-color: #f4f4f4;
-  border: 2px solid rgba(0, 0, 0, 0.03);
+  border: 2px solid rgba(0, 0, 0, 0.075);
   padding: 2.5%; }
   .invoerscherm__button {
     background-color: #69b745;
