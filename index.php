@@ -123,7 +123,7 @@ function dateToText($date)
       </div>
 
       <div class="voorkeurspartners__rechts" id="temp">
-
+        <img class="weather-icon" src="images/weather_icons/04d.png" alt="Weather-icon">9°C
       </div>
     </div>
 

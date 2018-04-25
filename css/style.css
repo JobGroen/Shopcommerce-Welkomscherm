@@ -6610,6 +6610,9 @@ a, .btn {
     margin-left: 5%;
     padding-bottom: 2.5%;
     width: 125px; }
+    .voorkeurspartners img.weather-icon {
+      float: left;
+      width: 77px; }
 
 .lead {
   font-size: 2rem !important;

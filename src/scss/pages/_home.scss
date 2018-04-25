@@ -16,6 +16,7 @@ $videobreedtte: 100%;
     font-weight: lighter;
   }
 }
+
 .videoContainer {
     position: relative;
     width: $videobreedtte;
@@ -94,8 +95,14 @@ $videobreedtte: 100%;
     margin-left: 5%;
     padding-bottom: 2.5%;
     width: 125px;
+
+    &.weather-icon  {
+      float:left;
+      width: 77px;
+    }
   }
 }
+
 
 .lead {
   font-size: 2rem!important;
