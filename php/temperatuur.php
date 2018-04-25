@@ -12,4 +12,4 @@ $connection = curl_exec($verify);
 $connection = json_decode($connection, true);
 
 $celcius = ($connection["main"]["temp"] - 273.15 ) * 1.000000;
-echo '<img style="float:left; width: 77px;" src="images/weather_icons/'. $connection["weather"][0]["icon"] .'.png" alt="Weather_icon" height="42" width="42">' .round($celcius, 0) . '°c';
+echo '<img style="float:left; width: 77px;" src="images/weather_icons/'. $connection["weather"][0]["icon"] .'.png" alt="Weather_icon" height="42" width="42">' .round($celcius, 0) . '°C';
