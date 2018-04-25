@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20475565-c812-4c95-99e6-1b5951d1cb01" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/weather_icons/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/images/weather_icons/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/temperatuur.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/temperatuur.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/temprefresh.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/temprefresh.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="temperatuur.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="temperatuur.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/temperatuur.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -28,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="temprefresh.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="temprefresh.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/temprefresh.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="14" selection-end-line="17" />
+            <state relative-caret-position="119">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -42,15 +36,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="614">
               <caret line="125" column="20" lean-forward="true" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/pages/_home.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="85" column="3" lean-forward="true" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -80,9 +65,9 @@
         <option value="$PROJECT_DIR$/icons.php" />
         <option value="$PROJECT_DIR$/src/scss/pages/_home.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/temprefresh.js" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/php/temperatuur.php" />
+        <option value="$PROJECT_DIR$/js/temprefresh.js" />
       </list>
     </option>
   </component>
@@ -192,12 +177,12 @@
       <workItem from="1524476903180" duration="529000" />
       <workItem from="1524586972507" duration="134000" />
       <workItem from="1524641725733" duration="938000" />
-      <workItem from="1524647266278" duration="2116000" />
+      <workItem from="1524647266278" duration="2181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23772000" />
+    <option name="totallyTimeSpent" value="23837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -555,10 +540,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/temprefresh.js">
+    <entry file="file://$PROJECT_DIR$/php/temperatuur.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="14" selection-end-line="17" />
+        <state relative-caret-position="238">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -576,10 +561,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/temperatuur.php">
+    <entry file="file://$PROJECT_DIR$/js/temprefresh.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
