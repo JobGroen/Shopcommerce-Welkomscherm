@@ -82,7 +82,7 @@ function dateToText($date)
 		<![endif]-->
   </head>
 
-  <body onload="startTime()">
+  <body>
     <header>
     </header>
 
