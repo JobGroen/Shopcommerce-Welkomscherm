@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20475565-c812-4c95-99e6-1b5951d1cb01" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/js/temprefresh.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/temprefresh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -152,12 +152,12 @@
       <workItem from="1524156211515" duration="216000" />
       <workItem from="1524476903180" duration="529000" />
       <workItem from="1524586972507" duration="134000" />
-      <workItem from="1524641725733" duration="338000" />
+      <workItem from="1524641725733" duration="938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21056000" />
+    <option name="totallyTimeSpent" value="21656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
