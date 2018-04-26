@@ -15,63 +15,55 @@
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body>
-		<header>
-		</header>
+	<body class="background__overlay background">
 
+		<!-- container -->
     <div class="container">
+
+			<!-- invoerscherm -->
 			<div class="invoerscherm">
-
-
-
 				<h1 class="display-4">Shopcommerce welkomscherm</h1>
 				<h4 class="container__h4">Voer de gegevens in voor de meeting</h4><br/>
 
+				<!-- invoervelden -->
 				<div class="form-row">
 					<div class="col-md-4">
 						<div class="form-group">
 							<input type="company" class="form-control" name="company" id="company" placeholder="Bedrijfsnaam">
-							<small id="passwordHelpBlock" class="form-text text-muted">
+							<small id="helptext" class="form-text text-muted">
 							  De bedrijfsnaam dient correct ingevuld te worden om verwarring te voorkomen.
 							</small>
 						</div>
 					</div>
-
 					<div class="col-md-4">
 						<div class="form-group">
 							<input type="aanwezigen" class="form-control" name="aanwezigen" id="aanwezigen" placeholder="Aanwezigen">
-							<small id="passwordHelpBlock" class="form-text text-muted">
+							<small id="helptext" class="form-text text-muted">
 								Indien er meerdere personen betrokken zijn bij de meeting graag een ( , ) gebruiken na ieder persoon.
 							</small>
 						</div>
 					</div>
-
 					<div class="col-md-2">
 						<div class="form-group">
 							<input type="tijd" class="form-control" name="tijd" id="tijd" placeholder="Tijd">
-							<small id="passwordHelpBlock" class="form-text text-muted">
+							<small id="helptext" class="form-text text-muted">
 								Bijvoorbeeld: 12:00
 							</small>
 						</div>
 					</div>
-
 					<div class="col-md-2">
 						<div class="form-group">
 							<button type="submit" id="submit" class="invoerscherm__button btn btn-primary">Genereer scherm</button>
 						</div>
 					</div>
 				</div>
-
+			</div>
 		</div>
-	</div>
 
-		<footer>
-
-		</footer>
-
+		<!-- js script files -->
 		<script src="//code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 		<script src="js/plugins.min.js"></script>
 		<script src="js/app.min.js"></script>
-        <script src="js/generate_url.js"></script>
+    <script src="js/generate_url.js"></script>
 	</body>
 </html>

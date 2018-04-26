@@ -98,7 +98,7 @@ function dateToText($date)
 
     <!-- shopcommercelogo bovenin -->
     <div class="shopcommercelogo">
-      <img src="images/logo-shopcommerce.png" alt="">
+      <img src="images/logo-shopcommerce.png" alt="shopcommercelogo">
     </div>
 
 
@@ -110,7 +110,7 @@ function dateToText($date)
         <?php echo getInput($aanwezigen); ?>
       </p>
       <p class="lead">
-        <p class="lead btn  datum" id="date"><?php echo date("d"). " " .dateToText(date("m")). " " . date("Y") .""?></p>
+        <p class="lead btn datum" id="date"><?php echo date("d"). " " .dateToText(date("m")). " " . date("Y") .""?></p>
         <p class="lead lead__right btn tijd">
           <?php echo getInput($tijd); ?> uur</p>
       </p>
