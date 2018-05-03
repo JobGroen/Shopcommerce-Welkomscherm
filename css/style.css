@@ -6623,21 +6623,81 @@ a, .btn {
 /*------------------------------------------------------------*    Page
 \*------------------------------------------------------------*/
 body {
-  background-image: url("../images/backgroundwelkomscherm.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; }
+  height: 100vh;
+  overflow-y: hidden;
+  /* ff3.6+ */
+  /* safari4+,chrome */
+  /* safari5.1+,chrome10+ */
+  /* opera 11.10+ */
+  /* ie10+ */
+  background: linear-gradient(172deg, #69b745 0%, #FFFFFF 16%, #FFFFFF 100%);
+  /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69b745', endColorstr='#FFFFFF',GradientType=0 );
+  /* ie6-9 */ }
 
-.invoerscherm {
-  margin-top: 25%;
-  background-color: rgba(244, 244, 244, 0.95);
-  border: 2px solid rgba(0, 0, 0, 0.075);
-  padding: 2.5%; }
-  .invoerscherm__button {
-    background-color: #69b745;
-    border: 2px solid #69b745; }
-    .invoerscherm__button:hover {
-      background-color: #35a300;
-      border: 2px solid #35a300; }
+.welkomscherm {
+  background-color: red;
+  border-radius: 20px;
+  margin-top: 17.5%;
+  height: 550px;
+  box-shadow: 0 -1px 15px #cccccc; }
+  .welkomscherm__links {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 550px; }
+    .welkomscherm__links--h1 {
+      margin-top: 20%; }
+    .welkomscherm__links--h2 {
+      font-size: 1.25em;
+      width: 60%;
+      margin: 3% auto; }
+    .welkomscherm__links--copyright {
+      font-size: 1em;
+      color: #bbbbbb; }
+    .welkomscherm__links--form {
+      width: 75%;
+      margin: 0 auto; }
+    .welkomscherm__links--icons {
+      color: #69b745; }
+    .welkomscherm__links--button {
+      background-color: #69b745;
+      border: 2px solid #69b745;
+      color: white;
+      width: 60%;
+      margin: 3% 0% 5% 0%; }
+      .welkomscherm__links--button:hover {
+        background-color: #35a300;
+        border: 2px solid #35a300;
+        color: white; }
+  .welkomscherm__rechts {
+    background-color: #fcfcfc;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 550px; }
+    .welkomscherm__rechts--h2 {
+      margin-top: 25%;
+      /* Important */
+      margin-bottom: 3%; }
+    .welkomscherm__rechts--form {
+      width: 75%;
+      margin: 0 auto; }
+    .welkomscherm__rechts--submit {
+      background-color: #69b745;
+      border: 2px solid #69b745;
+      color: white; }
+      .welkomscherm__rechts--submit:hover {
+        background-color: #35a300;
+        border: 2px solid #35a300; }
+    .welkomscherm__rechts--reset {
+      background-color: #ff7b54;
+      border: 2px solid #ff7b54;
+      color: white; }
+      .welkomscherm__rechts--reset:hover {
+        background-color: #f46d45;
+        border: 2px solid #f46d45; }
+    .welkomscherm__rechts--p {
+      font-size: .9em; }
 
 /*------------------------------------------------------------*    Plugins
 \*------------------------------------------------------------*/
