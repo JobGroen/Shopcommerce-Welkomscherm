@@ -5,6 +5,11 @@ var tijd = document.getElementById("tijd");
 
 submit.addEventListener("click", function () {
     if (company.value != "" && aanwezigen.value != "" && tijd.value != "") {
-        window.location.replace("welkom.php?company="+ company.value +"&aanwezigen="+ aanwezigen.value +"&tijd="+tijd.value);
+
+        let companyd = company.value.replace("&", "%26");
+        let aanwezigend = aanwezigen.value.replace("&", "%26");
+        let tijdd = tijd.value.replace("&", "%26");
+
+        window.location.href = "welkom.php?company="+ companyd +"&aanwezigen="+ aanwezigend +"&tijd="+tijdd;
     }
 });
