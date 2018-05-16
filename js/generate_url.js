@@ -6,9 +6,9 @@ var tijd = document.getElementById("tijd");
 submit.addEventListener("click", function () {
     if (company.value != "" && aanwezigen.value != "" && tijd.value != "") {
 
-        let companyd = company.value.replace("&", "%26");
-        let aanwezigend = aanwezigen.value.replace("&", "%26");
-        let tijdd = tijd.value.replace("&", "%26");
+        let companyd = encodeURIComponent(company.value);
+        let aanwezigend = encodeURIComponent(aanwezigen.value);
+        let tijdd = encodeURIComponent(tijd.value);
 
         window.location.href = "welkom.php?company="+ companyd +"&aanwezigen="+ aanwezigend +"&tijd="+tijdd;
     }
