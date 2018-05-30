@@ -122,9 +122,7 @@ function dateToText($date)
         <img src="images/magento.png" alt="magento">
       </div>
 
-      <div class="voorkeurspartners__rechts" id="temp">
-        <img class="weather-icon" src="images/weather_icons/04d.png" alt="Weather-icon">9°C
-      </div>
+      <div class="voorkeurspartners__rechts" id="temp"></div>
     </div>
 
     <script src="js/datum.js"></script>
