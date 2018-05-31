@@ -1,17 +1,24 @@
-var temp = document.getElementById("temp");
+$(document).ready(function(){
 
-function temprefresh() {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
+  $temprefresh = function() {
 
-            temp.innerHTML = xhttp.responseText;
+    $.ajax({
+
+        url : 'php/temperatuur.php',
+        type : 'GET',
+        dataType:'html',
+        success : function(data) {
+            $("#temp").html(data);
         }
-    };
-    xhttp.open("GET", "php/temperatuur.php", true);
-    xhttp.send();
-}
-temprefresh();
-setInterval(function(){ temprefresh(); }, 30000);
+    });
+
+      };
 
 
+
+  $temprefresh();
+  setInterval(function(){ $temprefresh(); }, 30000);
+
+
+
+});

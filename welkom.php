@@ -126,7 +126,7 @@ function dateToText($date)
     </div>
 
     <script src="js/datum.js"></script>
-    <script src="//code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/plugins.min.js"></script>
     <script src="js/app.min.js"></script>
     <script src="js/temprefresh.js"></script>

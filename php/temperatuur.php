@@ -11,5 +11,9 @@ $connection = curl_exec($verify);
 
 $connection = json_decode($connection, true);
 
-$celcius = ($connection["main"]["temp"] - 273.15 ) * 1.000000;
-echo '<img class="weather-icon" src="images/weather_icons/'. $connection["weather"][0]["icon"] .'.png" alt="Weather_icon">' .round($celcius, 0) . '°C';
+if ($connection["cod"] != 429) {
+  $celcius = ($connection["main"]["temp"] - 273.15 ) * 1.000000;
+  echo '<img class="weather-icon" src="images/weather_icons/'. $connection["weather"][0]["icon"] .'.png">' .round($celcius, 0) . '°c';
+} else {
+  echo '<img class="weather-icon" src="images/weather_icons/02d.png">-°c';
+}
