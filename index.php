@@ -50,22 +50,22 @@
 				<div class="welkomscherm__rechts--form form-row">
 					<div class="col-md-6">
 						<div class="form-group">
-							<input type="company" class="form-control" name="company" id="company" placeholder="Bedrijfsnaam">
+							<input type="company" class="form-control form_input_all" name="company" id="company" placeholder="Bedrijfsnaam">
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="form-group">
-							<input type="tijd" class="form-control" name="tijd" id="tijd" placeholder="Tijd">
+							<input type="tijd" class="form-control form_input_all" name="tijd" id="tijd" placeholder="Tijd">
 						</div>
 					</div>
 					<div class="col-md-12">
 						<div class="form-group">
-							<input type="aanwezigen" class="form-control" name="aanwezigen" id="aanwezigen" placeholder="Aanwezigen">
+							<input type="aanwezigen" class="form-control form_input_all" name="aanwezigen" id="aanwezigen" placeholder="Aanwezigen">
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="form-group">
-						<button type="reset" class="welkomscherm__rechts--reset form-control btn">Reset formulier</button>
+						<button type="reset" id="reset" class="welkomscherm__rechts--reset form-control btn">Reset formulier</button>
 					</div>
 					</div>
 					<div class="col-md-6">
@@ -82,7 +82,7 @@
 	</div>
 
 	<!-- js script files -->
-	<script src="//code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/plugins.min.js"></script>
 	<script src="js/app.min.js"></script>
 	<script src="js/generate_url.js"></script>
